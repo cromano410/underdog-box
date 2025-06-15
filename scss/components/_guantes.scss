@@ -1,0 +1,35 @@
+.descuento {
+    text-align: center;
+    padding: 30px;
+    border: $color-secundario solid 5px;
+    background-color: rgba(34, 33, 33, 0.815);
+    h2{
+        font-size: 30px;
+        border: 1px solid rgb(254, 0, 0);
+        padding: 10px;
+        color: rgba(255, 0, 0, 0.914);
+        font-weight: 800;
+    }
+}
+form{
+    background-color: rgba(185, 180, 180, 0.729);
+    font-size: 30px;
+    border: 1px solid $color-secundario;
+    margin: 100px;
+    color: $color-secundario;
+    margin: 30px;
+}
+input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 12px;
+}
+button{
+    font-size: 10px;
+    border-radius: 12px;
+    color: $color-principal;
+    padding: 10px;
+    background-color: $color-secundario;
+    margin: 10px;
+}
+

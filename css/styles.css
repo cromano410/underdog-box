@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/** RESET **/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+h1 {
+    color: rgba(172, 178, 178, 0.814);
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    font-weight: 500;
+}
+
+/*!--- HEADER----*/
+
+header {
+    color: white;
+    background-color: rgb(2, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header h1 {
+    margin: relative;
+    padding: 40px;
+    font-size: 60px;
+    font-weight: 500;
+    color: azure;
+}
+
+header h1::first-letter {
+    background-color: gold;
+    color: black;
+    text-decoration: solid;
+    font-size: 60px;
+
+
+}
+
+header nav ul {
+    list-style: none;
+
+}
+
+header a {
+    font-size: 15px;
+    text-decoration: none;
+    color: gold;
+    padding: 5px 6px;
+
+}
+
+header a:hover {
+    font-size: 18px;
+    background-color: gold;
+    color: black;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+/*?-------------- MAIN */
+.hero {
+    height: relative;
+    background-image: url(../img/backgraund-box.jpg);
+    background-position: center;
+    background-attachment: fixed;
+
+
+}
+
+
+.hero h2 {
+    font-size: 30px;
+    color: rgba(255, 217, 0, 0.867);
+    text-align: center;
+    font-weight: 300;
+
+}
+
+.hero p {
+    color: white;
+    text-align: center;
+    text-size-adjust: 50px;
+    padding: 20px 20px;
+
+}
+
+.destacados {
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.destacados div {
+    border: solid 2px gold;
+    width: 250px;
+    height: 350px;
+    margin: 0px 20px;
+    text-align: center;
+    padding: 15px;
+    margin: 0px 10px 10px 0px;
+    border-radius: 10px;
+}
+
+.destacados div img {
+    width: 100%;
+    height: 250px;
+}
+
+.destacados div h3 {
+    color: gold;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.destacados div a {
+    text-decoration: none;
+    background-color: gold;
+    color: black;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.marca {
+    padding: 30px;
+    flex-direction: column-reverse;
+    align-items: center;
+    display: flex;
+    color: gold;
+    background-color: black;
+
+
+}
+
+.marca {
+
+    font-size: 13px;
+    padding: 20px;
+}
+
+
+
+/*--------------FOOTER*/
+
+footer a img {
+    width: 50px;
+    height: 50px;
+
+}
+
+@media screen and (max-width:520px) {
+    header {
+        flex-direction: column;
+
+    }
+}
+
+@media screen and (max-width:520px) {
+    .destacados {
+        flex-direction: column;
+        align-items: center;
+
+    }
+}
+
+/*------ PAG PRODUCTS*/
+
+.flex-bucales {
+    text-align: center;
+}
+
+.flex-bucales iframe {
+  padding: 50px;  
+  display: inline-block;  
+  height: 500px;
+  width: 500px;
+   
+}
+
+.products {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.products div {
+    border: solid 1px gold;
+    background-color: rgba(0, 0, 0, 0.515);
+    width: 250px;
+    height: 250px;
+    margin: 0px 20px;
+    text-align: center;
+    padding: 15px;
+    margin: 12px 12px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.products div img {
+    width: 100%;
+    height: 60%;
+}
+
+.products div h3 {
+    color: gold;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.products div a {
+    text-decoration: none;
+    background-color: gold;
+    color: black;
+    font-weight: 200px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.products h4 {
+    color: rgb(67, 249, 0);
+    padding: 15px 5px;
+    font-weight: 500;
+    font-size: 30px;
+
+}
+
+
+
+.Contacto {
+    padding: 150px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+}
+
+.Contacto h1 {
+
+    padding: 200px;
+    color: azure;
+
+}
+
+.Contacto h1::first-letter{
+    background-color: gold;
+    color: black;
+    text-decoration: solid;
+    font-size: 60px;
+}
+
+.descuento {
+    text-align: center;
+    padding: 30px;
+    border: rgb(249, 249, 2) solid 5px;
+    background-color: rgba(0, 0, 0, 0.853);
+    
+}
+
+.descuento h2 {
+
+    font-size: 30px;
+    border: 10px solid black;
+    padding: 10px;
+    color: rgba(255, 0, 0, 0.914);
+    font-weight: 800;
+}
+
+/*---formulario*/
+
+
+
+form {
+  
+    background-color: rgba(28, 28, 28, 0.155);
+    font-size: 30px;
+    border: 1px solid gold;
+    margin: 100px;
+    color: gold;
+    margin: 30px;
+    
+}
+
+input {
+
+    margin: 10px !important;
+    padding: 10px !important;
+    
+}
+
+button {
+    font-size: 10px;
+    border-radius: 12px;
+    color: black;
+    padding: 10px;
+    background-color: gold;
+    margin: 10px;
+}
+

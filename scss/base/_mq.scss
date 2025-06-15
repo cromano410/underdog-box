@@ -1,0 +1,14 @@
+@media screen and (max-width:520px) {
+    header {
+        flex-direction: column;
+
+    }
+}
+
+@media screen and (max-width:520px) {
+    .destacados {
+        flex-direction: column;
+        align-items: center;
+
+    }
+}

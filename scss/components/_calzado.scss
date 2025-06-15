@@ -1,0 +1,16 @@
+.ubicacion {
+    padding: 80px 50px ;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    h1{
+        padding: 200px;
+        color: azure;
+        &::first-letter{
+            background-color: $color-secundario;
+            color: $color-principal;
+            text-decoration: solid;
+            font-size: 60px;
+        }
+    }
+}
