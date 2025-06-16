@@ -2,13 +2,14 @@
     text-align: center;
     padding: 30px;
     border: $color-secundario solid 5px;
-    background-color: rgba(34, 33, 33, 0.815);
+    background-color: rgb(104, 102, 102);
     h2{
         font-size: 30px;
-        border: 1px solid rgb(254, 0, 0);
+        border: 1px solid rgb(232, 69, 70);
         padding: 10px;
-        color: rgba(255, 0, 0, 0.914);
+        color: rgb(255, 255, 255);
         font-weight: 800;
+        background-color: rgb(232, 69, 70);
     }
 }
 form{

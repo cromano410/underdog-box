@@ -40,6 +40,11 @@ header{
         }
 }
 
+p {
+    background-color: rgba(26, 25, 25, 0.918);
+    font-weight: 200;
+}
+
 .hero {
     height: relative;
     background-image: url(../img/backgraund-box.jpg);
@@ -92,6 +97,9 @@ header{
         padding: 10px;
     }
 }
+
+
+
 
 .marca{
     padding: 30px;

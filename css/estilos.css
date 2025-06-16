@@ -86,14 +86,15 @@ h1 {
   text-align: center;
   padding: 30px;
   border: gold solid 5px;
-  background-color: rgba(34, 33, 33, 0.815);
+  background-color: rgb(104, 102, 102);
 }
 .descuento h2 {
   font-size: 30px;
-  border: 1px solid rgb(254, 0, 0);
+  border: 1px solid rgb(232, 69, 70);
   padding: 10px;
-  color: rgba(255, 0, 0, 0.914);
+  color: rgb(255, 255, 255);
   font-weight: 800;
+  background-color: rgb(232, 69, 70);
 }
 
 form {
@@ -155,6 +156,11 @@ header h1::first-letter {
   color: black;
   text-decoration: solid;
   font-size: 60px;
+}
+
+p {
+  background-color: rgba(26, 25, 25, 0.918);
+  font-weight: 200;
 }
 
 .hero {
