@@ -61,8 +61,8 @@ h1 {
 .flex-bucales iframe {
   padding: 50px;
   display: inline-block;
-  height: 500px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
 }
 
 .ubicacion {
@@ -72,7 +72,7 @@ h1 {
   justify-content: left;
 }
 .ubicacion h1 {
-  padding: 200px;
+  padding: 50px;
   color: azure;
 }
 .ubicacion h1::first-letter {
@@ -237,6 +237,22 @@ footer img {
   .destacados {
     flex-direction: column;
     align-items: center;
+  }
+}
+@media screen and (max-width: 520px) {
+  .flex-bucales div iframe {
+    align-items: center;
+  }
+}
+@media screen and (max-width: 520px) {
+  .ubicacion {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 520px) {
+  .ubicacion iframe {
+    width: 300px;
+    height: 200px;
   }
 }
 
