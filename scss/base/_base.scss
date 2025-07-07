@@ -5,6 +5,14 @@
     padding: 0;
     font-family: "Montserrat", sans-serif;
 }
+
+.navbar {
+    background-color: $color-secundario; 
+    border-radius: 8px;
+    margin: 5px;
+   
+}
+
 h1 {
     color: $color-terciario;
     font-size: 40px;

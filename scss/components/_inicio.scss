@@ -6,24 +6,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    nav{
-        ul{
-            list-style: none;
-        }
-        a{
-            font-size: 15px;
-            text-decoration: none;
-            color: $color-secundario;
-            padding: 5px 6px;
-            &:hover {
-            font-size: 18px;
-            background-color: $color-secundario;
-            color: $color-principal;
-            border-radius: 4px;
-            transition: 0.3s;
-        }
-    }
 }
+    
 
     h1{
         margin: relative;
@@ -38,7 +22,7 @@ header{
             font-size: 60px;
         }
         }
-}
+
 
 p {
     background-color: rgba(26, 25, 25, 0.918);

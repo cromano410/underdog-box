@@ -1,16 +1,6 @@
-.ubicacion {
-    padding: 80px 50px ;
+.mapa{
     display: flex;
     align-items: center;
-    justify-content: left;
-    h1{
-        padding: 50px;
-        color: azure;
-        &::first-letter{
-            background-color: $color-secundario;
-            color: $color-principal;
-            text-decoration: solid;
-            font-size: 60px;
-        }
-    }
+    justify-content: center;
+    padding: 20px;
 }
